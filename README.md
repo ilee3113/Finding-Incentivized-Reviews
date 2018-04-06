@@ -7,13 +7,13 @@ Welcome to my Capstone repo!
 Table of Contents
 =================
 
-  * [Introduction](#Introduction)
-  * [Data](#Data-Section)
-  * [Methods](#Methods-Section)
-  * [Analysis](#Analysis-Section)
-  * [results](#Results)
+  * [Introduction](#introduction)
+  * [Data](#data-section)
+  * [Methods](#methods-section)
+  * [Analysis](#analysis-section)
+  * [Results](#results)
 
-  * [Conclusions](#Conclusions)
+  * [Conclusions](#conclusions)
 
 
 
