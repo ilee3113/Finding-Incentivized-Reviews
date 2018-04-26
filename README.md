@@ -45,7 +45,7 @@ Why would something like the picture above still happen even with high average p
 While Amazon has tons of bots that check for fake reviews, it is still very hard to determine if a review was in some way incentivized. The following is a good example of something getting through the cracks.
 
 <p align="center">
-  <img width="460" height="300" src="./Visuals/Screen Shot.png">
+  <img width="1119" height="444" src="./Visuals/Screen Shot.png">
 </p>
 <p align="center">
 <caption align="bottom">Figure 3. Kettle Reviews (Amazon.com) </caption>
@@ -65,14 +65,14 @@ I scraped review data from two sources: products listed on a discount site and A
 
 
 <p align="center">
-  <img width="460" height="300" src="./Visuals/EDA_Review_distribution_by_QTR.png">
+  <img width="864" height="360" src="./Visuals/EDA_Review_distribution_by_QTR.png">
 </p>
 <p align="center">
 <caption align="bottom">Figure 4. Random Users Review Timeline </caption>
 </p>
 
 <p align="center">
-  <img width="460" height="300" src="./Visuals/Top_users/TOP_EDA_Review_Dist.png">
+  <img width="864" height="360" src="./Visuals/Top_users/TOP_EDA_Review_Dist.png">
 </p>
 <p align="center">
 <caption align="bottom">Figure 5. Top Users Review Timeline </caption>
@@ -81,7 +81,7 @@ I scraped review data from two sources: products listed on a discount site and A
 As seen in the two review history timeline, there isn't much too alarming and is consistent with my predictions. There is a visible drop in late 2016 as Amazon officially changed the review policies and banned incentivized reviews. There is also an expected drop in 2018, as new products might be lower on recommendation pages.
 
 <p align="center">
-  <img width="460" height="300" src="./Visuals/ratings_dist.png">
+  <img width="1440" height="360" src="./Visuals/ratings_dist.png">
 </p>
 <p align="center">
 <caption align="bottom">Figure 6. Ratings Distribution </caption>
@@ -92,7 +92,7 @@ As seen in Figure 6, there isn't much of a difference between my random users co
 I needed to create a determination on how many reviews users were posting in a given time period. It seemed that checking the number of reviews in any given day would be a good indicator on activity.
 
 <p align="center">
-  <img width="460" height="300" src="./Visuals/one_day_dist.png">
+  <img width="1440" height="720" src="./Visuals/one_day_dist.png">
 </p>
 <p align="center">
 <caption align="bottom">Figure 7. Review per Day Distribution </caption>
@@ -103,14 +103,14 @@ As seen above, there are many high volume reviewers, but not even the top Amazon
 Next, I looked into the title and review lengths. The way I gathered my data, I could not get the whole review body but only the first 200 characters. Therefore, the review length is a little misleading. The title length did bring up some interesting distributions as there was a large uptick around 10 characters. Digging further, I looked into the top used titles.
 
 <p align="center">
-  <img width="460" height="300" src="./Visuals/title_len_dist.png">
+  <img width="1440" height="720" src="./Visuals/title_len_dist.png">
 </p>
 <p align="center">
 <caption align="bottom">Figure 8. Title/Review Length Distribution </caption>
 </p>
 
 <p align="center">
-  <img width="460" height="300" src="./Visuals/titles_most_used.png">
+  <img width="1440" height="360" src="./Visuals/titles_most_used.png">
 </p>
 <p align="center">
 <caption align="bottom">Figure 9. Most Used Titles </caption>
@@ -119,7 +119,7 @@ Next, I looked into the title and review lengths. The way I gathered my data, I 
 As seen, the random users tend to use more simple titles as well as titles that are unhelpful. Many of these titles can be seen as a potential indicator for fake reviews. Then I was able to narrow down some of the common review text based on the most common titles used.
 
 <p align="center">
-  <img width="460" height="300" src="./Visuals/most_used_titles_reviews_body.png">
+  <img width="1440" height="720" src="./Visuals/most_used_titles_reviews_body.png">
 </p>
 <p align="center">
 <caption align="bottom">Figure 10. Review Body Text </caption>
